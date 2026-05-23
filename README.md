@@ -1,4 +1,4 @@
-# Psilosplicing-GomezLab
+# Psilo_Splicing_GomezLab
 
 This repository contains custom R scripts developed during a Master 2 internship in the Gomez Lab at UC Berkeley. The scripts were used to support candidate selection, annotation, and exploratory prioritization of psilocybin-associated skipped-exon events in mouse medial prefrontal cortex (mPFC) cell-type-specific RNA-seq data.
 
