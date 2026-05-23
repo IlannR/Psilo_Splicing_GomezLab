@@ -14,9 +14,16 @@ library(biomaRt)
 
 #### Data Importation ####
 
-# Import alternative splicing data (skipped-exon events)
-# The input file should be placed in the data/ folder.
-dataset_SkippedExon <- read.csv("data/allcelltypes_SE.csv", header = TRUE)
+# Import alternative splicing data (skipped-exon events).
+# The input file is not included in this repository.
+# To run this script, place allcelltypes_SE.csv in the local data/ folder.
+input_file <- "data/allcelltypes_SE.csv"
+
+if (!file.exists(input_file)) {
+  stop("Input file not found. Please place allcelltypes_SE.csv in the data/ folder before running this script.")
+}
+
+dataset_SkippedExon <- read.csv(input_file, header = TRUE)
 
 #### Data filtering ####
 
