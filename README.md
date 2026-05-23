@@ -76,7 +76,6 @@ These scripts require internet access because they query Ensembl BioMart. If Ens
 
 For reproducible execution, restart R before sourcing the scripts.
 
-The input data file is not included in this repository. To run the filtering script, place the rMATS skipped-exon output file in the `data/` folder and name it `allcelltypes_SE.csv`.
 
 ## Project context
 
